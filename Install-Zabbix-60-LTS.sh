@@ -47,7 +47,7 @@ dnf install -y zabbix-server-mysql zabbix-web-mysql zabbix-apache-conf zabbix-sq
 
 # Let's create database and grant access to user
 
-mysql -u root -e 'create database zabbix character set utf8 collate utf8_bin;'
+mysql -u root -e 'create database zabbix character set utf8mb4 collate utf8mb4_bin;;'
 mysql -u root -e "grant all privileges on zabbix.* to zabbix@localhost identified by 'zabbix';"
 
 # Now let's create schema
