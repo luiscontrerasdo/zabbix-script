@@ -10,7 +10,7 @@ These scripts have tested on Rocky Linux Rocky Linux release 8.5 (Green Obsidian
 
 Important to know, these scripts have been created in order to install and use MariaDB 10.7. 
 You will need to run mariadb-secure-installation after the installation in order to secure your root user on MariaDB.
-For zabbix_server.conf file, we are using *zabbix* as default password, please use strong paswords.
+For the zabbix_server.conf file, we are using *zabbix* as default password at DBPassword parameter, please use strong paswords.
 
 
 
