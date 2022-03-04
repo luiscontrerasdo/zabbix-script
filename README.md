@@ -1,4 +1,5 @@
-# zabbix-scripts
+# Zabbix Scripts
+
 Here you have 3 Zabbix installation scripts for: 5.0 LTS, 5.4 and 6.0 LTS
 
 These scripts have tested on Rocky Linux Rocky Linux release 8.5 (Green Obsidian), so it shoudl work on:
