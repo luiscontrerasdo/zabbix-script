@@ -9,7 +9,7 @@ These scripts have tested on Rocky Linux Rocky Linux release 8.5 (Green Obsidian
 * Alma Linux 8
 * and Oracle Linux 8
 
-Important to know, these scripts have been created in order to install and use MariaDB 10.5 as version supported. 
+Important to know, these scripts have been created in order to install and use MariaDB 10.5 as supported version. 
 You will need to run mariadb-secure-installation or mysql_secure_installation after the installation in order to secure your root user on MariaDB.
 For the **zabbix_server.conf** file, we are using *zabbix* as default password at **DBPassword** parameter, please use strong paswords.
 
